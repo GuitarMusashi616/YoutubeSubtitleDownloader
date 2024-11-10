@@ -15,4 +15,4 @@
 ## How to make it work
 
 - Change the list of links in the main function
-- But breakpoints on line 6, 10, & 18 so you can manually wait for the selenium browser to load the pages before continuing
+- Put breakpoints on line 6, 10, & 18 so you can manually wait for the selenium browser to load the pages before continuing
