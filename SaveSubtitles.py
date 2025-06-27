@@ -30,6 +30,8 @@ class SaveSubtitles:
         self.open_content()
         self.browser.implicitly_wait(self.secs_implicit_wait)
 
+        time.sleep(self.secs_per_retry)
+
         content = self.get_content()
         self.browser.implicitly_wait(self.secs_implicit_wait)
 
@@ -57,7 +59,6 @@ class SaveSubtitles:
             except JavascriptException: 
                 tries_left -= 1
                 time.sleep(self.secs_per_retry)
-                
 
 
     def save_file(self, title: str, content: str):
