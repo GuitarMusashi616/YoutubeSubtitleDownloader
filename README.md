@@ -16,3 +16,5 @@
 
 - Change the list of links in the main function
 - Put breakpoints on line 6, 10, & 18 so you can manually wait for the selenium browser to load the pages before continuing
+- Put breakpoints where self.get_title, self.open_content, and self.get_content are called and run in debug to manually wait for selenium to load / execute javascript before continuing
+
